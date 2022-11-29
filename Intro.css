@@ -140,8 +140,6 @@
 }
 /*Final-Background*/
 
-
-/*Começo-Style*/
 header {
     color: #E6E6FA;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -160,100 +158,37 @@ header {
     border-top: 3px solid #696969;
 }
 
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-}
-
-.Conta-Soma {
-    position: absolute;
-    bottom: 70%;
-    color: #333;
-}
-
-.box {
-    top: 0 auto;
-    bottom: 50%;
-    position: absolute;
-    width: 250px;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    background: rgb(210 219 228);
-    overflow: hidden;
-    border-radius: 20px;
-}
-
-.Campo-de-Resposta {
-    text-transform: uppercase;
-    color:#333;
-    font-size: 25px;
+.somaa {
+    bottom: 85%;
+    left: 45%;
     text-align: center;
-    width: 70px;
-    bottom: 350px;
-    height: 50px;
-    position: absolute;
-    background-color: rgb(210 219 228);
-    border-color: #333;
-    border-radius: 5px;
-}
-
-.box::before {
-    bottom: -50%;
-    content: '';
-    position: absolute;
-    width: 150px;
-    height: 500px;
-    background: linear-gradient( #696969, #696969);
-    animation: caixa 10s linear infinite;
-}
-
-@keyframes caixa {
-    0%{
-        transform: rotate(0deg);
-    }
-    50%{
-        transform: rotate(180g);
-    }
-    100%{
-        transform: rotate(360deg);
-    }
-}
-
-.box::after{
-    content: '';
-    position: absolute;
-    inset: 4px;
-    background: rgb(210 219 228);
-    border-radius: 20px;
-}
-
-
-.voltar {
-    top: 70%;
-    left: 47%;
-    text-align: center;
-	color: #e6e6fa00;
+	color: #e6e6fa3b;
 	font-weight: bold;
 	text-decoration: none;
 	position: absolute;
 	font-weight: bold;
+	text-decoration: none;
 }
 
 nav a:hover {
 	color: #d4a610;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 nav a {
-	color: #e6e6fa;
+	color: #E6E6FA;
 	font-weight: bold;
-	font-size: 25px;
-	text-decoration: none;
+	font-size: 35px;
+	text-decoration: underline;
 }
 
+P {
+    font-size: 20px;
+    text-align: center;
+    padding: 30px;
+    bottom: 60%;
+    position: absolute;
+}
 
 footer  {
     color: #E6E6FA;
